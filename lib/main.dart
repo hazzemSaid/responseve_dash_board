@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:responsve_dash_borad/views/mobilelayout.dart';
+import 'package:responsve_dash_borad/views/tablelayout.dart';
 
 import 'utils/adaptiveUI.dart';
 import 'views/dashboard.dart';
@@ -19,6 +21,8 @@ class adaptiveDashboard extends StatelessWidget {
       ),
       home: DynamicLayout(
         dashboard: (context) => const Dashboard(),
+        mobileLayoutWidget: (context) => const MobileLayoutWidget(),
+        tableLayoutWidget: (context) => const TableLayoutWidget(),
       ),
     );
   }
