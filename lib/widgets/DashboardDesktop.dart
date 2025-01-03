@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../utils/app_style.dart';
+
 class DashboardDesktop extends StatelessWidget {
   const DashboardDesktop({super.key});
 
@@ -9,8 +11,11 @@ class DashboardDesktop extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Adaptive Dashboard'),
       ),
-      body: const Center(
-        child: Text('Hello, World!'),
+      body: Center(
+        child: Text(
+          'Hello, World!',
+          style: AppStyle.style16,
+        ),
       ),
     );
   }

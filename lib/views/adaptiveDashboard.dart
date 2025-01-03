@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../utils/adaptiveUI.dart';
+import '../helper/adaptiveUI.dart';
 import '../widgets/DashboardDesktop.dart';
 import '../widgets/mobilelayout.dart';
 import '../widgets/tablelayout.dart';
